@@ -10,7 +10,7 @@
 
 Every "AI Builder" role today assumes one skill nobody actually teaches you: **how to write a good prompt.**
 
-Most people, including experienced developers, write prompts like *"write me something good"* — vague, no context, no format, no success criteria — and then wonder why the AI's output feels generic. I wanted to build something that closes that gap directly: an AI that looks at *your* prompt, tells you exactly what's weak about it, and hands you back a stronger version you can actually use.
+Most people, including experienced developers, write prompts like *"write me something good"* vague, no context, no format, no success criteria and then wonder why the AI's output feels generic. I wanted to build something that closes that gap directly: an AI that looks at *your* prompt, tells you exactly what's weak about it, and hands you back a stronger version you can actually use.
 
 So I built **Prompt Critique** — a tool that treats prompt engineering itself as the product.
 
