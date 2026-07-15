@@ -2,7 +2,7 @@
 
 **An AI tool that critiques your prompts — so your prompts can get better results out of AI.**
 
-[Live Demo](#) · [Built with Lovable](https://lovable.dev)
+[Live Demo](#) · [Built with Lovable](https://promptcritique.lovable.app)
 
 ---
 
@@ -49,7 +49,7 @@ It's a little meta — an AI tool for improving how you talk to AI tools — but
 
 ## How It's Built
 
-- **Frontend & app logic:** Built end-to-end in [Lovable](https://lovable.dev), from initial prompt-to-app generation through UI refinement (dark → light theme, spacing, copy button, prompt history panel)
+- **Frontend & app logic:** Built end-to-end in [Lovable](https://promptcritique.lovable.app), from initial prompt-to-app generation through UI refinement (dark → light theme, spacing, copy button, prompt history panel)
 - **AI backend:** Connected to an LLM API that receives the user's prompt and returns a structured critique — score, weaknesses, and rewrite — parsed into a clean card-based UI
 - **History:** Local browser storage keeps a record of past critiques so users can revisit earlier prompts and scores
 
