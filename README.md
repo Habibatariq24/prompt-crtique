@@ -33,10 +33,10 @@ So I built **Prompt Critique** — a tool that treats prompt engineering itself 
 ## Screenshots
 
 **The input screen** — paste any prompt and get an instant quality check.
-![Prompt Critique input screen](./promptcritique.png)
+![Prompt Critique input screen](./promptcrtique.png)
 
 **Score, weaknesses, and rewritten prompt** — specific, actionable feedback instead of a vague rating.
-![Score and improved prompt](./score-and-improved-version.png)
+![Score and improved prompt](./scoreandimprovedversion.png)
 
 **Prompt history** — every critique is saved locally, so you can track how your prompts improve over time.
 ![Prompt history panel](./history.png)
