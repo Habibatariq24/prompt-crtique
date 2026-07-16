@@ -10,7 +10,7 @@
 
 Every "AI Builder" role today assumes one skill nobody actually teaches you: **how to write a good prompt.**
 
-Most people, including experienced developers, write prompts like *"write me something good"* vague, no context, no format, no success criteria and then wonder why the AI's output feels generic. I wanted to build something that closes that gap directly: an AI that looks at *your* prompt, tells you exactly what's weak about it, and hands you back a stronger version you can actually use.
+Most people, including experienced developers, write prompts like *"write me something good"* — vague, no context, no format, no success criteria — and then wonder why the AI's output feels generic. I wanted to build something that closes that gap directly: an AI that looks at *your* prompt, tells you exactly what's weak about it, and hands you back a stronger version you can actually use.
 
 So I built **Prompt Critique** — a tool that treats prompt engineering itself as the product.
 
@@ -33,13 +33,26 @@ So I built **Prompt Critique** — a tool that treats prompt engineering itself 
 ## Screenshots
 
 **The input screen** — paste any prompt and get an instant quality check.
+
 ![Prompt Critique input screen](./promptcrtique.png)
 
 **Score, weaknesses, and rewritten prompt** — specific, actionable feedback instead of a vague rating.
+
 ![Score and improved prompt](./scoreandimprovedversion.png)
 
 **Prompt history** — every critique is saved locally, so you can track how your prompts improve over time.
+
 ![Prompt history panel](./history.png)
+
+
+
+**Medium quality prompt (5/10)** — a short, underspecified prompt is scored lower and the tool lists exactly what's missing (target version, output structure, constraints, testing).
+
+![Medium quality prompt example](./mediumscore.png)
+
+**Good quality prompt (8/10)** — a detailed, well-scoped prompt still gets pinpointed feedback on the small gaps left (e.g., undefined behavior for invalid input, unclear mutation semantics).
+
+![Good quality prompt example](./goodquality.png)
 
 ## Why This Project
 
